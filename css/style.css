@@ -1,0 +1,44 @@
+body, p {
+    font-family: "Whitney SSm A", "Whitney SSm B", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+}
+
+p {
+    color: #3e4551;
+}
+
+p.quote {
+    font-weight: bold;
+    font-style: italic;
+}
+
+li > p, p.no-margin {
+    margin-bottom: 0em;
+}
+
+body {
+    background-color: #eceef1;
+    padding: 4em;
+}
+
+.row {
+    max-width: 55.5rem;
+}
+
+.progress.blue .meter {
+    background: #008CBA;
+    color: #FFFFFF;
+    padding-left: 1em;
+}
+
+/**
+ICONS
+**/
+.size-24 {
+    font-size: 24px;
+}
+
+.size-36 {
+    font-size: 36px;
+}
